@@ -4,7 +4,9 @@
 @custom-variant dark (&:is(.dark *));
 
 body{
-   @apply min-h-screen text-white antialiased bg-black bg-cover bg-no-repeat;
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 

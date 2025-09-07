@@ -5,18 +5,18 @@ import Brand from './Brand';
 const Detail = () => {
   return (
       <>
-    <section className="bg-black text-white min-h-screen px-12">
-      <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-12 py-16 md:py-20 lg:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 xl:gap-20 items-center">
+    <section className="bg-black py-16 text-white md:py-12 lg:py-16 px-4 sm:px-6 md:px-4 lg:px-8 overflow-hidden border border-solid border-gray-100/20">
+      <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center">
           
           {/* Left Content */}
-          <div className="space-y-8 lg:space-y-10 max-w-lg">
-            <h1 className="text-4xl md:text-4xl lg:text-4xl font-bold leading-tight">
+          <div className="space-y-4 lg:space-y-6 max-w-lg">
+            <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold leading-tight">
               Sustainability at the heart <br />
               of Innovation
             </h1>
             
-            <p className="text-gray-400 text-lg leading-relaxed">
+            <p className="text-gray-400 text-base md:text-lg leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             
@@ -29,10 +29,10 @@ const Detail = () => {
           </div>
 
           {/* Right Images */}
-          <div className="relative h-[500px] lg:h-[600px]">
+          <div className="relative h-[300px] md:h-[400px] lg:h-[450px] overflow-hidden">
             
             {/* Water Drop - Base layer */}
-            <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[280px] h-[350px] lg:w-[320px] lg:h-[400px]">
+            <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[200px] h-[250px] md:w-[280px] md:h-[350px] lg:w-[320px] lg:h-[400px]">
               <Image
                 src="/WaterDrop.png"
                 alt="Water Drop"
@@ -43,7 +43,7 @@ const Detail = () => {
             </div>
 
             {/* Glass Effect - Overlay layer on top */}
-            <div className="absolute left-8 top-1/2 -translate-y-1/2 w-[350px] h-[450px] lg:w-[400px] lg:h-[500px] z-10">
+            <div className="absolute left-4 sm:left-6 md:left-8 top-1/2 -translate-y-1/2 w-[180px] h-[250px] md:w-[250px] md:h-[500px] lg:w-[350px] lg:h-[700px] z-10 max-w-[calc(100%-20px)]">
               <Image
                 src="/Glasseffect.png"
                 alt="Glass Effect"

@@ -30,14 +30,14 @@ const ScienceCard = () => {
     <section className="relative w-full bg-black text-white min-h-screen py-8 md:py-16 px-4 md:px-8 lg:px-20">
       
       {/* Gradient Line on the Right */}
-      <div className="absolute top-0 right-2 sm:right-4 md:right-8 lg:right-16 xl:right-32 h-full flex flex-col items-center z-10">
+      <div className="absolute top-0 right-6 md:right-8 lg:right-22 xl:right-32 h-full flex flex-col items-center z-10">
         <div
-          className="w-1 sm:w-1.5 md:w-2 lg:w-3 h-40 sm:h-56 md:h-72 lg:h-96 xl:h-[500px] rounded-full"
+          className="w-1 h-150 sm:w-1.5  lg:w-1.5   md:h-72 lg:h-96 xl:h-[500px] rounded-full"
           style={{
             background: "linear-gradient(180deg, #FF7300 0%, #6B0BEC 100%)",
           }}
         />
-        <div className="w-0.5 sm:w-1 md:w-1.5 lg:w-2 flex-1 bg-gray-700 rounded-full" />
+        <div className="w-0.5 sm:w-1  lg:w-1.5 flex-1 bg-gray-700 rounded-full" />
       </div>
 
       {/* Content Area */}

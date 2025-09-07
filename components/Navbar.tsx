@@ -25,8 +25,11 @@ const Navbar = () => {
 
       {/* Get Started Button (Desktop) */}
       <div className="hidden md:flex">
-        <Button variant="outline" asChild>
-          <a href="#">Get Started ↗</a>
+        <Button variant="outline" asChild className="border-[0.5px] border-gray-50">
+          <a href="#" className="flex items-center gap-2">
+            Get Started 
+            <img src="/guidance_up-arrow.png" alt="arrow" className="w-4 h-4" />
+          </a>
         </Button>
       </div>
 
@@ -56,8 +59,11 @@ const Navbar = () => {
                 </a>
               ))}
 
-              <Button variant="outline" asChild>
-                <a href="#">Get Started ↗</a>
+              <Button variant="outline" asChild className="border-[0.5px] border-gray-50">
+                <a href="#" className="flex items-center gap-2">
+                  Get Started 
+                  <img src="/arrow-up-right.png" alt="arrow" className="w-4 h-4" />
+                </a>
               </Button>
             </nav>
           </div>

@@ -1,3 +1,4 @@
+import { Button } from '@/components/ui/button';
 import Bubble from "./Bubble";
 
 const AdvancedMaterial = () => {
@@ -7,8 +8,8 @@ const AdvancedMaterial = () => {
       {/* === Gradient Path with Rounded Corner === */}
     
  <svg
-  className="absolute top-0 left-0 w-full h-[1200px] sm:h-[1500px] md:h-[1800px] pointer-events-none md:left-40"
-  viewBox="0 0 1000 2000"
+  className="absolute top-0 left-8 w-full h-[2000px] md:h-[2750px] pointer-events-none md:left-40"
+  viewBox="0 0 1000 2500"
   preserveAspectRatio="xMinYMin meet"
 >
   <defs>
@@ -33,7 +34,7 @@ const AdvancedMaterial = () => {
   />
 
   <path
-    d="M870 800 L870 1900"
+    d="M870 800 L870 2400"
     stroke="#3B3B3B"
     strokeWidth="3"
     fill="none"
@@ -43,7 +44,7 @@ const AdvancedMaterial = () => {
 
 
       {/* === Content aligned under horizontal line === */}
-      <div className="relative z-10 px-6 sm:px-12 md:px-16 pt-[100px] sm:pt-[260px] md:pt-[300px] md:pl-[140px]">
+      <div className="relative z-10 px-6 sm:px-12 md:px-16 pt-[140px] sm:pt-[260px] md:pt-[300px] md:pl-[140px]">
         <h1 className="text-3xl sm:text-4xl md:text-4xl font-light leading-tight max-w-md mb-12">
           Advanced Materials and<br /> Integrative Solutions
         </h1>
@@ -63,9 +64,9 @@ const AdvancedMaterial = () => {
                 governments to effectively identify counterfeits,<br />
                 secure revenues and preserve brand integrity.
               </p>
-              <button className="bg-[#FF6B00] hover:bg-[#e55a00] text-white text-sm sm:text-base px-4 sm:px-6 py-2 rounded-md">
+              <Button className="bg-[#FF6B00] hover:bg-[#e55a00] text-white text-sm sm:text-base px-4 sm:px-6 py-2 rounded-md">
                 Learn More
-              </button>
+              </Button>
             </div>
           </div>
 
@@ -83,9 +84,9 @@ const AdvancedMaterial = () => {
                 breakthroughs at a faster pace by powering<br />
                 long live-cell tracking and deep tissue bio-imaging.
               </p>
-              <button className="bg-[#FF6B00] hover:bg-[#e55a00] text-white text-sm sm:text-base px-4 sm:px-6 py-2 rounded-md">
+              <Button className="bg-[#FF6B00] hover:bg-[#e55a00] text-white text-sm sm:text-base px-4 sm:px-6 py-2 rounded-md">
                 Learn More
-              </button>
+              </Button>
             </div>
           </div>
         </div>
