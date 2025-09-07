@@ -1,5 +1,6 @@
 
 
+import AdvancedMaterial from "@/components/AdvancedMaterial";
 import { LogoSection } from "@/components/HeroSection";
 import { Button } from "@/components/ui/button";
 
@@ -23,6 +24,10 @@ export default function Home() {
       </main>
 
       <LogoSection />
+
+      <div>
+         <AdvancedMaterial/>
+      </div>
     </>
   );
 
