@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Detail from "./Detail";
 
 const ScienceCard = () => {
   const cards = [
@@ -25,6 +26,7 @@ const ScienceCard = () => {
   ];
 
   return (
+    <>
     <section className="relative w-full bg-black text-white min-h-screen py-8 md:py-16 px-4 md:px-8 lg:px-20">
       
       {/* Gradient Line on the Right */}
@@ -108,6 +110,9 @@ const ScienceCard = () => {
         </div>
       </div>
     </section>
+    
+     <Detail/>
+     </>
   );
 };
 
