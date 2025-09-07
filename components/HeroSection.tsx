@@ -1,6 +1,9 @@
+import AboutBrand from "./AboutBrand";
+
 export const LogoSection = () => {
   return (
-    <section className="bg-black text-white pt-0 md:pt-10 pb-10 md:pb-16">
+    <>
+    <section className="bg-black text-white pt-0 md:pt-10">
       <div className="max-w-3xl mx-auto px-4 md:px-6">
         <div className="flex flex-row items-start">
           {/* LEFT LINE (always vertical, responsive height) */}
@@ -14,7 +17,7 @@ export const LogoSection = () => {
   />
 
   {/* Grey Line */}
-  <div className="w-[3px] h-70 md:h-60 bg-[#3B3B3B]" />
+  <div className="w-[3px] h-70 md:h-80 bg-[#3B3B3B]" />
 </div>
 
 
@@ -62,5 +65,11 @@ export const LogoSection = () => {
         </div>
       </div>
     </section>
+
+     <div>
+       
+           <AboutBrand />
+      </div>
+    </>
   );
 };
