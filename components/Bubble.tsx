@@ -1,8 +1,10 @@
 // Bubble.jsx
 import Image from 'next/image';
+import ScienceCard from './ScienceCard';
 
 const Bubble = () => {
   return (
+    <>
     <div className="relative w-full h-screen bg-black flex items-center justify-center overflow-hidden
                 border-t-[0.5px] border-b-[0.5px] border-transparent border-opacity-20">
   {/* Background Image */}
@@ -21,6 +23,8 @@ const Bubble = () => {
     </h1>
   </div>
 </div>
+     <ScienceCard />
+    </>
 
   );
 };
