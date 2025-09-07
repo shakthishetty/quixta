@@ -1,10 +1,13 @@
+import Bubble from "./Bubble";
+
 const AdvancedMaterial = () => {
   return (
-    <section className="relative w-full bg-black text-white overflow-hidden min-h-screen pb-10">
+    <>
+    <section className="relative w-full bg-black text-white overflow-hidden min-h-screen pb-30">
       {/* === Gradient Path with Rounded Corner === */}
     
  <svg
-  className="absolute top-0 left-0 w-full h-[1200px] sm:h-[1500px] md:h-[1700px] pointer-events-none md:left-40"
+  className="absolute top-0 left-0 w-full h-[1200px] sm:h-[1500px] md:h-[1800px] pointer-events-none md:left-40"
   viewBox="0 0 1000 2000"
   preserveAspectRatio="xMinYMin meet"
 >
@@ -88,6 +91,10 @@ const AdvancedMaterial = () => {
         </div>
       </div>
     </section>
+    <section>
+      <Bubble />
+    </section>
+    </>
   );
 };
 
