@@ -132,3 +132,120 @@ body{
     @apply bg-background text-foreground;
   }
 }
+
+@layer components{
+  /* Hero Section Specific Classes */
+  .hero-p-main {
+    @apply text-lg md:text-4xl font-light text-gray-200 leading-snug text-nowrap;
+  }
+  
+  .hero-p-secondary {
+    @apply text-sm md:text-2xl font-light text-gray-400 leading-relaxed;
+  }
+  
+  .hero-line-container {
+    @apply flex flex-col items-center mr-4 md:mr-10;
+  }
+  
+  .hero-gradient-line {
+    @apply w-[6px] h-70 md:h-70 rounded-full md:mr-30 md:pr-2;
+  }
+  
+  .hero-grey-line {
+    @apply w-[4px] h-70 md:h-80 bg-[#3B3B3B] md:mr-30 md:pr-1;
+  }
+  
+  .hero-content-container {
+    @apply flex-1 p-0 md:pl-6 md:pr-20 
+  }
+  
+  .hero-text-column {
+    @apply space-y-4 md:space-y-6 md:max-w-[70%];
+  }
+  
+  .hero-logos-grid {
+    @apply mt-8 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-6;
+  }
+  
+  .hero-logo-container {
+    @apply w-40 md:w-full aspect-square bg-[#1A1A1A] rounded-xl md:rounded-2xl flex items-center justify-center;
+  }
+
+  /* AboutBrand Section Specific Classes */
+  .about-brand-container {
+    @apply relative w-full min-h-[300px] sm:min-h-[400px] md:min-h-[600px] flex items-center justify-center;
+  }
+  
+  .about-brand-overlay {
+    @apply absolute inset-0 flex items-center justify-center p-2 sm:p-4;
+  }
+  
+  .about-brand-inner-image {
+    @apply w-[98%] sm:w-[95%] md:w-[90%] h-auto rounded-lg sm:rounded-xl md:rounded-2xl;
+  }
+  
+  .about-brand-content {
+    @apply absolute inset-0 flex flex-col items-center justify-center text-center px-3 sm:px-4 md:px-6 space-y-2 sm:space-y-4 md:space-y-5;
+  }
+  
+  .about-brand-h2 {
+    @apply text-base sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white leading-tight sm:leading-snug;
+  }
+  
+  .about-brand-p {
+    @apply text-xs sm:text-sm md:text-base text-white/80 max-w-xs sm:max-w-md md:max-w-2xl leading-relaxed;
+  }
+  
+  .about-brand-button {
+    @apply mt-2 sm:mt-4 md:mt-6 px-3 sm:px-4 md:px-6 py-1.5 sm:py-2 text-xs sm:text-sm md:text-base rounded-md;
+  }
+
+  /* AdvancedMaterial Section Classes */
+  .advanced-section {
+    @apply relative w-full bg-black text-white overflow-hidden min-h-screen pb-30;
+  }
+  
+  .advanced-svg {
+    @apply absolute top-0 left-8 w-full h-[2000px] md:h-[2750px] pointer-events-none md:left-40;
+  }
+  
+  .advanced-content {
+    @apply relative z-10 px-6 sm:px-12 md:px-16 pt-[140px] sm:pt-[260px] md:pt-[300px] md:pl-[140px];
+  }
+  
+  .advanced-h1 {
+    @apply text-3xl sm:text-4xl md:text-4xl font-light leading-tight max-w-md mb-12;
+  }
+  
+  .advanced-sections {
+    @apply space-y-20 sm:space-y-24;
+  }
+  
+  .advanced-grid {
+    @apply grid grid-cols-1 sm:grid-cols-12 gap-6 sm:gap-8 items-start;
+  }
+  
+  .advanced-title-col {
+    @apply sm:col-span-3;
+  }
+  
+  .advanced-content-col {
+    @apply sm:col-span-9 space-y-4;
+  }
+  
+  .advanced-h2 {
+    @apply text-2xl font-light;
+  }
+  
+  .advanced-h3 {
+    @apply text-xl sm:text-2xl font-medium leading-snug;
+  }
+  
+  .advanced-p {
+    @apply text-gray-300 text-sm sm:text-base leading-relaxed;
+  }
+  
+  .advanced-button {
+    @apply bg-[#FF6B00] hover:bg-[#e55a00] text-white text-sm sm:text-base px-4 sm:px-6 py-2 rounded-md;
+  }
+}
