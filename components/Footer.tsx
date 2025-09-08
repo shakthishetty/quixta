@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="bg-black text-gray-300">
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
         {/* Top Row */}
-        <div className="flex flex-col md:flex-row items-center justify-between border-b border-gray-700 py-6">
+        <div className="flex flex-col md:flex-row items-start justify-between border-b border-gray-700 py-6">
           {/* Left: Logo */}
           <h2 className="text-2xl font-bold text-white mb-4 md:mb-0">{footerData.contact.logo}</h2>
 
