@@ -109,7 +109,7 @@ quixta/
 
 ## 🏗️ Deployment
 - The application is deployed on Vercel.
-- Live URL: (replace with your Vercel deployment link)
+- Live URL: (https://quixta.vercel.app/)
 
 ## 📌 Evaluation Criteria
 - **Design Accuracy:** Matches the Figma design closely.

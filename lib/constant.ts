@@ -118,7 +118,7 @@ export const scienceCardClasses = {
   grid: "grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8",
   card: "relative rounded-2xl sm:rounded-3xl overflow-hidden hover:scale-[1.02] transition-all duration-500 shadow-2xl group h-64 sm:h-72 md:h-80 lg:h-96 w-full cursor-pointer",
   imageBg: "absolute inset-0",
-  image: "opacity-70 group-hover:opacity-80 transition-opacity duration-300",
+  image: "opacity-100 group-hover:opacity-100 transition-opacity duration-300",
   overlay: "absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent group-hover:from-black/70 group-hover:via-black/30 group-hover:to-transparent transition-all duration-300",
   pattern: "absolute inset-0 opacity-10 group-hover:opacity-20 transition-opacity duration-300",
   cardContent: "relative h-full flex flex-col justify-end p-4 sm:p-6 md:p-8",
