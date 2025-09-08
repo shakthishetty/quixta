@@ -19,7 +19,7 @@ export default function AboutUs() {
         {/* Left Card */}
         <div className="p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl backdrop-blur-md bg-white/10 shadow-lg max-w-full">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-3 sm:mb-4 break-words">
-            Have Questions? <br /> Let's Talk!
+           Have Questions? <br /> Let&apos;s Talk!
           </h2>
           <p className="text-sm sm:text-base text-gray-200 mb-4 sm:mb-6 break-words">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.

@@ -111,7 +111,7 @@ const Brand = () => {
             {/* Header */}
             <div ref={headerRef} className="text-left mb-6 sm:mb-8 md:mb-10 lg:mb-12 ml-2 sm:ml-8 md:ml-12 lg:ml-16 xl:ml-20">
               <h2 className="text-base sm:text-lg md:text-3xl lg:text-4xl xl:text-5xl font-bold">
-                What's New at Brand
+                What&apos;s New at Brand
               </h2>
             </div>
 
